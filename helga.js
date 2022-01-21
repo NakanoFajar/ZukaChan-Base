@@ -1810,7 +1810,7 @@ case 'jadibot':
 if (!isRegistered) return reply(`Registrasi dulu Kak ketik .verify`)
 menu = `Enak aja lu mau numpang sewa lah :v`
 katalog(menu)
-sendButLocation(from, `Hai ${pushname} ☺️`, "*_© 𝙰𝚢𝚊𝚊 𝚅2.ೃ࿐_*", {jpegThumbnail:ofrply}, [{buttonId:`${prefix}sewa`,buttonText:{displayText:'SEWA 🎟️'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `Hai ${pushname} ☺️`, "*_© ZukaChan.ೃ࿐_*", {jpegThumbnail:ofrply}, [{buttonId:`${prefix}sewa`,buttonText:{displayText:'SEWA 🎟️'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 break
 case 'stopjadibot':
 if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
@@ -1827,6 +1827,10 @@ case 'owner':
 	case 'creator':
 case 'developer':
 		case 'author':
+txt = '_*NOMER OWNER GW DI PRIVATE*_\n_*SUKA ADA YANG CHAT GAJELAS SOALNYA*_`
+reply (txt)
+break
+case 'fajarrc':
 let ini_list = []
 for (let i of ownerNumber) {
 const vname = helga.contacts[i] != undefined ? helga.contacts[i].vname || helga.contacts[i].notify : undefined
