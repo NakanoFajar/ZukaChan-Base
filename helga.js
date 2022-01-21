@@ -1827,7 +1827,7 @@ case 'owner':
 	case 'creator':
 case 'developer':
 		case 'author':
-txt = '_*NOMER OWNER GW DI PRIVATE*_\n_*SUKA ADA YANG CHAT GAJELAS SOALNYA*_`
+txt = `_*NOMER OWNER GW DI PRIVATE*_\n_*SUKA ADA YANG CHAT GAJELAS SOALNYA*_`
 reply (txt)
 break
 case 'fajarrc':
@@ -2324,9 +2324,7 @@ case 'ytmp4':
 					exif.create(namaPack, authorPack)
 					await reply('Done gan')
 				break
-				case 'sticker':
-					case 'stiker':
-					case 's':
+				case 'sti':
 					if (!isRegistered) return reply(`Registrasi Dulu Kak Ketik .verify`)
 						if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 							const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
@@ -2384,8 +2382,8 @@ case 'ytmp4':
 							reply(`Kirim gambar/video dengan caption ${prefix}sticker atau tag gambar/video yang sudah dikirim\nNote : Durasi video maximal 10 detik`)
 						}
 						break
-					case 'stickerwm':
-					case 'swm':
+					case 'sticker':
+					case 's':
               if (!isRegistered) return reply(`Registrasi dulu Kak ketik .verify`)
 						if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 							ppp = `${args.join(' ')}`
